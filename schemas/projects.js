@@ -45,6 +45,14 @@ export default {
       name: 'body',
       title: 'Body',
       type: 'blockContent'
+    },
+    {
+      name: 'markdown',
+      title: 'Markdown',
+      type: 'markdown',
+      options: {
+        minRows: 20
+      }
     }
   ]
 }
