@@ -31,6 +31,12 @@ export default {
       type: 'text'
     },
     {
+      name: 'techStack',
+      title: 'Tech Stack',
+      type: 'array',
+      of: [{ type: 'string' }]
+    },
+    {
       name: 'author',
       title: 'Author',
       type: 'reference',
@@ -40,11 +46,6 @@ export default {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime'
-    },
-    {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent'
     },
     {
       name: 'markdown',
